@@ -1,0 +1,29 @@
+public class BeerSong {
+
+    public static void main(String[] args) {
+        System.out.println("Start");
+        Ninety_Nine_Bottles_of_Beer();
+        System.out.println("End");
+
+    }
+
+    public static void Ninety_Nine_Bottles_of_Beer() {
+        for (int i = 100; i > 0; i--) {
+
+
+            System.out.println(i + " bottles of beer on the wall " + i + " bottles of beer. Take one down pass it around " + i + " bottles of beer on the wall");
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
